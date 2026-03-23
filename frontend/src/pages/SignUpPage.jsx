@@ -13,7 +13,7 @@ import { Link } from "react-router-dom";
 import toast from "react-hot-toast";
 
 import AuthImagePattern from "../components/AuthImagePattern";
-import { useAuthStore } from "../store/useAuthStore";
+import useAuthStore from "../store/useAuthStore";
 
 const SignUpPage = () => {
   const [showPassword, setShowPassword] = useState(false);
